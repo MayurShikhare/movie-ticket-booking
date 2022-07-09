@@ -1,0 +1,26 @@
+.fileter-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 8rem;
+  /* border: 1px solid red; */
+  padding: 1rem;
+  font-size: 1.4rem;
+  
+}
+
+.filter-option{
+  color: rgb(255, 38, 38);
+  background: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  outline: 1px solid rgb(248, 38, 38);
+
+}
+.filter-option:hover{
+  background-color: rgb(248, 38, 38);
+  outline: 1px solid rgb(248, 38, 38);
+  color: white;
+}
