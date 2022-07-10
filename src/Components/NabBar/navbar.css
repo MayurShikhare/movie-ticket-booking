@@ -1,28 +1,24 @@
-ul li{
-  list-style-type:none;
+ul li {
+  list-style-type: none;
 }
 
-.nav-container{
+.nav-container {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   background-color: rgb(253, 76, 76);
   color: rgb(0, 0, 0);
   font-size: 1rem;
-  padding:.1rem 1rem;
-  
-
+  padding: 0.1rem 1rem;
 }
 
-.nav-logo{
+.nav-logo {
   text-decoration: none;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  font-weight: bolder;
-  transition: all .4s ease-in-out;
-  padding: .2rem 1.6rem;
-
-
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+  padding: 0.2rem 1.6rem;
 }
 .nav-logo:hover {
   color: rgb(29, 29, 29);
@@ -30,59 +26,55 @@ ul li{
   background-color: rgb(255, 126, 117);
 }
 
-.nav-links{
+.nav-links {
   display: flex;
 }
-.nav-link-item{
-  margin:0 4rem;
+.nav-link-item {
+  margin: 0 4rem;
   border-bottom: 1px solid rgb(255, 255, 255);
-  padding: .2rem 1rem;
-  transition: all .2s ease-in-out;
+  padding: 0.2rem 1rem;
+  transition: all 0.2s ease-in-out;
 }
 
-.nav-link-item:hover{
+.nav-link-item:hover {
   border: none;
   /* background-color: rgb(255, 126, 117); */
 }
 
-input[type="text"]{
+input[type="text"] {
   background-color: rgb(255, 122, 122);
   border: none;
-  padding: .4rem 2.2rem;
+  padding: 0.4rem 2.2rem;
 }
-input[type="text"]:focus{
+input[type="text"]:focus {
   background-color: rgb(255, 79, 79);
-
 }
 
 input[type="submit"] {
   border: none;
   background-color: rgb(255, 255, 255);
-  margin-left: .5rem;
-  padding: .4rem .8rem;
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
   color: rgb(255, 57, 57);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-input[type="submit"]:hover{
- background-color: rgb(255, 2, 2);
- color: white;
- font-weight: bolder;
- outline:1px solid white ;
+input[type="submit"]:hover {
+  background-color: rgb(255, 2, 2);
+  color: white;
+  font-weight: bolder;
+  outline: 1px solid white;
 }
 
-.auth{
+.auth {
   font-weight: bold;
   background-color: rgb(46, 46, 46);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   color: rgb(248, 110, 110);
-  transition: all .2s linear;
-  
-  
+  transition: all 0.2s linear;
 }
 
-.auth:hover{
-    border: none;
-    background-color: rgb(113, 247, 86);
-    color: black;
-  
+.auth:hover {
+  border: none;
+  background-color: rgb(113, 247, 86);
+  color: black;
 }

@@ -7,7 +7,7 @@ import './navbar.css'
 const Navbar = () => {
   const isAuth = useSelector((state) => state.authenticate.isAuthenticated)
 
-  const [keyword, setkeyword] = useState(null)
+  const [keyword, setkeyword] = useState("")
 
   return (
     <nav className='nav-container'>

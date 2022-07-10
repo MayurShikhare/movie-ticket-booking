@@ -1,7 +1,5 @@
 .container {
-  /* border: 1px solid black; */
   display: flex;
-  /* align-items: flex-start; */
 
   flex-direction: column;
   padding: 1rem;
@@ -14,7 +12,6 @@
 
 .container:hover {
   box-shadow: 7px -10px 2px 5px rgb(247, 247, 247);
-  /* background: rgb(168, 168, 168); */
 }
 .bu-name {
   font-size: 2.4rem;
@@ -24,8 +21,6 @@
 }
 
 .count {
-  /* background: brown; */
-  /* border: 1px solid red; */
   font-size: 1.8rem;
   font-weight: 500;
   padding: 1rem;
@@ -38,15 +33,9 @@
   color: rgb(255, 255, 255);
   border: none;
   font-weight: 600;
-  /* border-radius: 2rem; */
   cursor: pointer;
   width: 100%;
 }
-/* 
-.card-img{
- 
-
-} */
 
 .grid-container {
   display: grid;

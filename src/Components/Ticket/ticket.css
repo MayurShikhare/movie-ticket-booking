@@ -1,57 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap");
 
-.ticket-container{
-  /* background-color: rgb(255, 61, 61); */
+.ticket-container {
   padding: 1rem 1.5rem;
   margin-top: 5rem;
-  margin-left:22rem;
-  margin-right:22rem;
+  margin-left: 22rem;
+  margin-right: 22rem;
   color: rgb(255, 255, 255);
   border-radius: 1rem;
   background: linear-gradient(-45deg, #ff7a76, #ff5353, #ff5b4f, #57ffd8);
-	background-size: 400% 400%;
-	animation: gradient 8s ease infinite;
-
-
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
 
   /* animation: swipe .8s ease-in-out infinite alternate-reverse; */
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .note {
-  font-family: 'Gwendolyn', cursive;
+  font-family: "Gwendolyn", cursive;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  
-  
 }
 
-.thank{
-  font-family: 'Gwendolyn', cursive;
+.thank {
+  font-family: "Gwendolyn", cursive;
   font-size: 8rem;
   font-weight: 700;
   color: rgb(255 255 255);
-    text-shadow: 12px -6px 0px red;
-    animation: shadow 1.5s ease-in-out infinite alternate-reverse;
+  text-shadow: 12px -6px 0px red;
+  animation: shadow 1.5s ease-in-out infinite alternate-reverse;
 }
 
-@keyframes shadow{
-  from{
+@keyframes shadow {
+  from {
     text-shadow: 12px -6px 50px red;
   }
-  to{
+  to {
     text-shadow: 12px 6px 0px rgb(255, 5, 5);
   }
-  
 }
