@@ -12,7 +12,7 @@ export const getUpcomingMovies = createAsyncThunk(
   'filteredMovies/getUpcomingMovies',
    async ()=> {
     //  return fetch('http://localhost:8000/upcoming')
-     return fetch('https://movies-databse.herokuapp.com/latestmovies')
+     return fetch('https://movies-databse.herokuapp.com/upcomingmovies')
             .then(response => response.json())
    } 
 )

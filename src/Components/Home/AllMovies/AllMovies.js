@@ -17,12 +17,21 @@ const Allmovies = () => {
   return (
     <div>
       <h3 className='card-title ml-5 mt-5'>All Movies</h3>
-    <div className='cards-container'>
-      {movies.map(movie => {
-        return <Movie key={movie.id} item ={movie}/>
-      })}
+      {
+          movies.length > 0 ? 
+          <div className='cards-container'>
+          {movies.map(movie => {
+            return <Movie key={movie.id} item ={movie}/>
+          })}
 
-    </div>
+        </div>
+          : 
+          <center>
+            <div className='loading'></div>
+          </center>
+              
+      }
+
     </div>
   );
 }

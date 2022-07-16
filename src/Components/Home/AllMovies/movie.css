@@ -42,3 +42,19 @@
 .btn {
   border: none;
 }
+
+.loading{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* background: red; */
+  border: 8px dotted red;
+  animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
