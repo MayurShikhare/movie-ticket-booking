@@ -10,7 +10,7 @@ const Movie = (props) => {
 
     <div className="card">
       <img src={props.item.image} alt={props.item.title} className="card-image"/>
-      <h1 className="card-title">{props.item.title} </h1>
+      <h3 className="card-title">{props.item.title} </h3>
    
         <button className="btn btn-primary px-5 py-3 mb-4 text-light "
       onClick={() =>{ 

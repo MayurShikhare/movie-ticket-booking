@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer-container'>
       <ul className='footer-links'>
         <Link className='footer-link' to='/'>
-          Home
+         Home
         </Link>
         <Link className='footer-link' to='/auth'>
           Authenticate
@@ -16,7 +16,7 @@ const Footer = () => {
           Latest Movies
         </Link>
         <Link className='footer-link' to='/upcomingmovies'>
-          Upcoming movies
+         Upcoming movies
         </Link>
       </ul>
       <q className='footer-message'>The show must go on</q>

@@ -16,7 +16,7 @@ const Allmovies = () => {
   
   return (
     <div>
-      <h3 className='card-title ml-5 mt-5'>All Movies</h3>
+      <h3 className='ml-5 mt-5 text-primary'>All Movies</h3>
       {
           movies.length > 0 ? 
           <div className='cards-container'>
